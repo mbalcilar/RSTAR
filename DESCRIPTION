@@ -1,0 +1,16 @@
+Package: RSTAR
+Title: Smooth Transition AutoRegressive Modelling
+Date: 2014-09-16
+Version: 0.1-1
+Author: Mehmet Balcilar, <mehmet@mbalcilar.net>
+Depends: R (>= 2.2.0), stats, methods, tseries, MASS, utils, scatterplot3d
+LazyData: yes
+LazyLoad: yes
+Description: Routines for the smooth transition autoregressive (STAR) modelling of time
+		 series data. The routines include testing for nonlinearity; and estimation,
+		 predition, and simulation of STAR models. The package emphasizes ease of use
+		 and completness.
+Maintainer: Mehmet Balcilar, <mehmet@mbalcilar.net>
+License: GPL version 2 or newer
+URL: http://www.mbalcilar.net, http://www.r-project.org
+

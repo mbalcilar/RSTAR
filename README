@@ -1,0 +1,13 @@
+Package for Smooth Transition AutoRegressive Modelling 
+of time series data.
+
+Author:
+  Mehmet Balcilar, <mehmet@mbalcilar.net>
+  
+License: GPL version 2 or newer
+
+Depends on the following R packages:
+  stats (included in the R distribution),
+  methods (included in the R distribution),
+  utils (included in the R distribution),
+  tseries, MASS, scatterplot3d
