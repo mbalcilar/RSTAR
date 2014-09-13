@@ -1,0 +1,44 @@
+useDynLib("RSTAR")
+
+export(bihist,
+       diagnose,
+       diagnose.STAR,
+       directed.scatter,
+       ESTAR,
+       fitted.STAR,
+       impulse,
+       impulse.STAR,
+       LSTAR,
+       NlStarTest,
+       plot.impulseSTAR,
+       plot.predictSTAR,
+       plot.ResidDiag,
+       plot.STAR,
+       plot.STARDiag,
+       predict.STAR,
+       print.impulseSTAR,
+       print.predictSTAR,
+       print.ResidDiag,
+       print.STAR,
+       print.STARDiag,
+       print.StarTest,
+       resid.diag,
+       resid.diag.STAR,
+       reverse.plot,
+       sim.STAR,
+       simulate.STAR,
+       STAR,
+       summary.impulseSTAR,
+       summary.predictSTAR,
+       summary.STAR,
+       ts.bihist,
+       tsplot.45,
+       coef.STAR,
+       residuals.STAR
+       )
+
+importFrom(graphics, plot)
+importFrom(stats, predict, simulate, fitted, residuals, coef)
+importFrom(utils, packageDescription)
+exportClasses(impulseSTAR, predictSTAR, ResidDiag, STAR, STARDiag, StarTest)
+exportMethods(diagnose,impulse,show,summary)
