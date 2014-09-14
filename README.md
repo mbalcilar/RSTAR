@@ -1,4 +1,4 @@
-## Smooth Transition AutoRegressive Modelling ##
+### Smooth Transition AutoRegressive Modelling ###
 
 
 Author: **Mehmet Balcilar, <mehmet@mbalcilar.net>**
