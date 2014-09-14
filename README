@@ -1,6 +1,8 @@
 Package for Smooth Transition AutoRegressive Modelling 
 of time series data.
 
+Package runs under R, see www.r-project.org
+
 Author:
   Mehmet Balcilar, <mehmet@mbalcilar.net>
   
